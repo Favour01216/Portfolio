@@ -1,6 +1,5 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import videobg from "../videos/home.mp4";
 
 const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
@@ -37,7 +36,6 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                       strings: [
                         "I'm Favour Adesiyan.",
                         "I'm a Full stack developer.",
-                        
                       ],
                       autoStart: true,
                       loop: true,

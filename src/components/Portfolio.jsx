@@ -305,15 +305,20 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                           alt=""
                         />
                         <div className="portfolio-overlay">
-                          <a
+                          <button
                             className="popup-ajax stretched-link"
-                            href=""
+                            type="button" // Set the button type
                             onClick={() => {
                               setSelectedProjectDetails(projectsData[index]);
                             }}
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
-                          />
+                          >
+                            {/* Add content for accessibility */}
+                            <span className="visually-hidden">
+                              View details for {project.title}
+                            </span>
+                          </button>
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}
