@@ -33,15 +33,20 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Favour Adesiyan,</span> a Web
-              Developer
+              I'm <span className="text-primary">Favour Adesiyan,</span> a Full
+              Stack Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            Full Stack Web Developer with a background in Graphic Design and Customer Service, passionate about creative problem solving, programming, and the ability to design and create something that can improve lives and communities.
-
+              Full Stack Web Developer with a background in Graphic Design and
+              Customer Service, passionate about creative problem solving,
+              programming, and the ability to design and create something that
+              can improve lives and communities.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I currently study computer programming and i am someone who enjoys new challenges and learning opportunities, taking the initiative to acquire new knowledge and skills through developing ideas and projects and enhancing personal and professional development. 
+              I currently study computer programming and i am someone who enjoys
+              new challenges and learning opportunities, taking the initiative
+              to acquire new knowledge and skills through developing ideas and
+              projects and enhancing personal and professional development.
             </p>
           </div>
           {/* About me content end */}
@@ -61,10 +66,9 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span className="fw-600 me-2">Email:</span>
                   <a href="mailto:chat@simone.com">Favouradesiyan2@gmail.com</a>
                 </li>
-                
+
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Toronto,
-                  Ontario
+                  <span className="fw-600 me-2">From:</span>Toronto, Ontario
                 </li>
               </ul>
               <a
@@ -94,7 +98,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>1</span>+
+                  <span>2</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Year Experiance

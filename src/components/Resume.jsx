@@ -10,12 +10,11 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "A 12-week intensive boot camp program focused on gaining technical programming and market-driven skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL.      ",
     },
     {
-      yearRange: "2023 - 2025",
-      title: "college Diploma in Computer Programming",
+      yearRange: "2023 - 2026",
+      title: "Advanced college diploma in Computer Programming",
       place: "Conestoga College",
-      desc: "A certificate program that provides students with a foundation in computer programming and software development. Typically, the program covers programming languages such as Java, Python, and C++, as well as web development languages such as HTML, CSS, and JavaScript. The program also covers topics such as software design and development, database management, software testing and debugging, and software project management. Graduates of a computer programming diploma program are prepared for entry-level positions in software development or can continue their education in a related field such as computer science or software engineering.",
+      desc: "An advance diploma program that provides students with a foundation in computer programming and software development. Typically, the program covers programming languages such as Java, Python, and C++, as well as web development languages such as HTML, CSS, and JavaScript. The program also covers topics such as software design and development, database management, software testing and debugging, and software project management. Graduates of a computer programming diploma program are prepared for entry-level positions in software development or can continue their education in a related field such as computer science or software engineering.",
     },
-    
   ];
 
   const experienceDetails = [
@@ -31,7 +30,6 @@ const Resume = ({ classicHeader, darkTheme }) => {
       place: "Vector Marketing",
       desc: "Developed and maintained relationships with potential customers to identify and pursue sales opportunities for kitchen utensils. Utilized various tactics and strategies, including product demonstrations, marketing materials, and personalized sales pitches, to effectively sell kitchen utensils to customers.Achieved a significant sales target by successfully selling $1000 worth of kitchen utensils in a single week through diligent and proactive efforts to identify and pursue sales opportunities.",
     },
-    
   ];
 
   const skills = [

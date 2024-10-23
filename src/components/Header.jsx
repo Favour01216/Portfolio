@@ -166,10 +166,10 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-            <li className="social-icons-facebook">
-              <Tooltip text="Facebook" placement="top">
+            <li className="social-icons-linkedin">
+              <Tooltip text="Linkedin" placement="top">
                 <a
-                  href="https://www.linkedin.com/in/favour01216"
+                  href="https://shorturl.at/u4rSl"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -177,10 +177,9 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 </a>
               </Tooltip>
             </li>
-            
-            
+
             <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
+              <Tooltip text="Github" placement="top">
                 <a
                   href="http://www.github.com/favour01216"
                   target="_blank"

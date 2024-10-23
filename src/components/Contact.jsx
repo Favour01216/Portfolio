@@ -132,7 +132,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-linkedin">
                 <Tooltip text="Linkedin" placement="top">
                   <a
-                    href="https://www.linkedin.com/in/favour01216"
+                    href="https://shorturl.at/u4rSl"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

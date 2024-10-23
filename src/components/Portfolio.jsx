@@ -11,7 +11,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const filters = {
     JSTS: "JS",
-    BRAND: "Brand",
+    CSHARP: "CSharp",
     PHOTOS: "Photos",
   };
 
@@ -92,7 +92,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-3.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.PHOTOS],
+      categories: [filters.CSHARP],
     },
     {
       title: "Tech-Blog",
@@ -118,7 +118,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-4.jpg",
       ],
-      categories: [filters.BRAND, filters.PHOTOS],
+      categories: [filters.CSHARP, filters.PHOTOS],
     },
     {
       title: "Clinical Encounter",
@@ -144,59 +144,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/p5-list.png",
         "images/projects/p5-final.png",
       ],
-      categories: [filters.DESIGN],
-    },
-    {
-      title: "Project Title 6",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-6.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.BRAND],
-    },
-    {
-      title: "Project Title 7",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-7.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.DESIGN, filters.PHOTOS],
+      categories: [filters.CSHARP],
     },
   ];
 
